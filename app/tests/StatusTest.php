@@ -8,7 +8,7 @@ class StatusTest extends \PHPUnit_Framework_TestCase
 
     function testFileName()
     {
-        $this->assertFileExists('../../static/status.log');
+        $this->assertFileExists('../../static/status');
     }
 
 
